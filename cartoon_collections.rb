@@ -1,16 +1,15 @@
 def roll_call_dwarves(dwarves)
   puts dwarves
 end
+def roll_call_dwarves(array)
+  i = 0 
+  while i < array.length 
+    puts "#{i + 1}. #{array[i]}"
+    i += 1 
+  end 
+end
 
- #var dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
- 
- #function rollCall(dwarves){
-   #var array =[]
-   #for (var i=0;i<dwarves.length;i++){
-     #array.push(`${i+1}. ${dwarves[i]} `)
-   #}
-   #return array.join("")
- #}
+roll_call_dwarves(dwarves)
  
 
 def summon_captain_planet# code an argument here
