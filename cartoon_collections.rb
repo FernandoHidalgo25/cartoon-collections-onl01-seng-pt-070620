@@ -1,18 +1,17 @@
-
- var dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
- 
- def rollCall(dwarves){
-   var array =[]
-   for (var i=0;i<dwarves.length;i++){
-     array.push(`${i+1}. ${dwarves[i]} `)
-   }
-   return array.join("")
- }
- 
-
 def roll_call_dwarves(dwarves)
   puts dwarves
 end
+
+ #var dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
+ 
+ #function rollCall(dwarves){
+   #var array =[]
+   #for (var i=0;i<dwarves.length;i++){
+     #array.push(`${i+1}. ${dwarves[i]} `)
+   #}
+   #return array.join("")
+ #}
+ 
 
 def summon_captain_planet# code an argument here
   # Your code here
