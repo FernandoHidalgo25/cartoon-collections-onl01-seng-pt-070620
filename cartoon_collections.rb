@@ -1,7 +1,7 @@
 
  var dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
  
- function rollCall(dwarves){
+ def rollCall(dwarves){
    var array =[]
    for (var i=0;i<dwarves.length;i++){
      array.push(`${i+1}. ${dwarves[i]} `)
