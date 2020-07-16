@@ -16,8 +16,14 @@ end
 new_array
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(array)
+  i = 0 
+  if array.any? {|i| i.length >2}
+    return true 
+  else 
+    returne false 
+  i = i + 1 
+  end 
 end
 
 
